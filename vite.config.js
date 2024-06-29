@@ -9,7 +9,7 @@ export default defineConfig({
   base: '/view-demo/',
   publicPath:
     process.env.NODE_ENV === 'production'
-      ? '/my-project/' // note the trailing slash
+      ? '/vue-demo/' // note the trailing slash
       : '/',
   plugins: [vue()],
   resolve: {
